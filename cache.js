@@ -1,4 +1,11 @@
 (async () => {
+
+  /**
+   * Resolves successfully in 50% of cases
+   * In other cases it rejects with an error
+   * @param {string} url 
+   * @returns {Promise}
+   */
   const request = (url) => {
     return new Promise((resolve, reject) => {
       const data = Math.random()
@@ -17,12 +24,14 @@
   
   /**
    * Tasks:
-   * 1. Recieve responses
-   * 2. The same as (1), but cache requests. Don't send separate request for same paths
+   * 1. Receive responses
+   * 2. Do the same as (1), but cache requests.
+   *    Don't send separate requests for the same paths
    */
   const responses
 
   console.log(responses)
+
 })()
 
 /**
