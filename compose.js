@@ -4,9 +4,12 @@ const f3 = (x) => x + 3;
 const f4 = (x) => x + 4;
 
 /**
- * Implement compose() function that make function composition:
- * fn = compose(f1, f2, f3, f4)
- * fn(val) === f4(f3(f2(f1(val))))
+ * Task:
+ * 
+ * Implement a `compose()` function that does function composition, i.e.:
+ *     
+ *   fn = compose(f1, f2, f3, f4)
+ *   fn(val) === f4(f3(f2(f1(val))))
  */
 
 const compose // = ...your code here...
