@@ -1,9 +1,12 @@
 ((EventEmitter) => {
+
   const ee = new EventEmitter();
 
   /**
-   * Add logging from `ee.on(task, cb)` method.
-   * Log task and cb in console
+   * Task:
+   * 
+   * Add logging for `ee.on(task, cb)` method.
+   * Log `task` and `cb` in console.
    */
   
   //...your code here...
@@ -13,6 +16,7 @@
 
   ee.emit("foo", 111);
   ee.emit("bar", 222);
+
 })(require("events"));
 
 
